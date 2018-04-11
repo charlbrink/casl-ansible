@@ -34,7 +34,7 @@ A provisioning run should be split into four (4) phases as represented in our [e
 4. _Post Install_ covers any additional configurations or deployments that we would like to have happen that isn't provided by the native installer. This can include:
   - Syncing additional administrator SSH keys (typically a cloud provider only provisions a single key)
   - Creating a set of demo users (when using the `HTPassswordIdentityProvider`)
-  - Creation of any sort of OpenShift resources using the [openshift-applier](https://github.com/redhat-cop/openshift-applier.git) automation framework.
+  - Creation of any sort of OpenShift resources using the [openshift-applier](https://github.com/charlbrink/openshift-applier.git) automation framework.
 
 Some principles we try to adhere to with all of these phases include the following.
 

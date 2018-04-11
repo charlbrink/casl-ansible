@@ -64,7 +64,7 @@ follow these [instructions](https://cloud.google.com/sdk/downloads#yum) to insta
 
 clone the ansible repo (you may also want to use a specific verison) and install the necessary galaxy repo.
 ```
-git clone https://github.com/redhat-cop/casl-ansible
+git clone https://github.com/charlbrink/casl-ansible
 cd casl-ansible
 ansible-galaxy install -r casl-requirements.yml -p galaxy
 ```
@@ -181,7 +181,7 @@ ansible-playbook -i <inventory_dir> --private-key=<private key for $gcp_user> <c
 You can run the gcp install directly from the openshift-ansible container.
 Checkout the version of casl that you want to use and run the galaxy command:
 ```
-git clone https://github.com/redhat-cop/casl-ansible
+git clone https://github.com/charlbrink/casl-ansible
 cd casl-ansible
 ansible-galaxy install -r casl-requirements.yml -p roles
 ```
